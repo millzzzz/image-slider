@@ -1,0 +1,51 @@
+.myButton {
+	background-color:#44c767;
+	border-radius:10px;
+	border: 2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	padding:20px 30px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    z-index: 1;
+    font-weight: bold;
+}
+.myButton:hover {
+    background-color: white;
+    color: #44c767;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.main {
+    border: 30px solid #44c767;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 630px;
+    height: 90vh;
+    margin: auto;
+    background: url(src/puppy1.jpg);
+    background-size: cover;
+}
+
+.subdiv {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 60px;
+
+}
+
+body {
+    height: 100vh;
+    background-color: #e6e6e6;
+}

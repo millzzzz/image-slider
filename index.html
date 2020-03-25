@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel='stylesheet' type='text/css' href='style.css' />
+</head>
+
+<body>
+    <div class="subdiv">
+        <a id="button1" href="#" class="myButton"><</a>
+                <a id="button2" href="#" class="myButton">></a>
+    </div>
+    <div class="main" id="main"></div>
+</body>
+
+<script>
+    (function () {
+
+        const leftButton = document.getElementById('button1');
+        const rightButton = document.getElementById('button1');
+        const mainDiv = document.getElementById('main');
+
+        leftButton.addEventListener("click", function () {
+            let index = 5;
+            mainDiv.style.background = "url(src/puppy" + index + ".jpg)";
+            mainDiv.style.backgroundSize = "cover";
+        });
+
+    })();
+</script>
